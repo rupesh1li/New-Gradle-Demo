@@ -1,0 +1,21 @@
+//plugins
+plugins {
+  id 'java'
+}
+
+//repositories
+repositories {
+mavenCentral()
+}
+//version
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+//dependencies
+dependencies {
+// https://mvnrepository.com/artifact/commons-codec/commons-codec
+implementation group: 'commons-codec', name: 'commons-codec', version: '1.15'
+
+}
+//task
